@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Pokemon Gen 2</title>
+<link rel="shortcut icon" href="icons/gen3.png" />
+
+<body style="background: rgb(0, 0, 0)"></body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav>
+    <a href="/">Pokemon Blue</a>
+    <a href="/red.html">Pokemon Red</a>
+    <a href="/yellow.html">Pokemon Yellow</a>
+
+    <a href="/gold.html">Pokemon Gold</a>
+    <a href="/silver.html">Pokemon Silver</a>
+    <a href="/crystal.html">Pokemon Crystal</a>
+    
+    <a href="/ruby.html">Pokemon Ruby</a>
+    <a href="/sapphire.html" aria-current="page">Pokemon Sapphire</a>
+    <a href="/emerald.html">Pokemon Emerald</a>
+
+    <a href="/firered.html">Pokemon FireRed</a>
+    <a href="/leafgreen.html">Pokemon LeafGreen</a>
+  </nav>
+  <div style="width: 100%; height: 610px; max-width: 100%">
+    <div id="game"></div>
+  </div>
+
+  <script type="text/javascript">
+    EJS_player = '#game';
+    EJS_biosUrl = 'bios/gba_bios.bin';
+    EJS_core = 'gba';
+    EJS_color = '#000000';
+    EJS_gameUrl = 'roms/Pokemon - Sapphire Version (USA, Europe) (Rev 2).gba';
+    EJS_pathtodata = './data/';
+  </script>
+  <script src="./data/loader.js"></script>
+</body>
+
+</html>
